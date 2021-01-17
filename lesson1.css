@@ -1,0 +1,46 @@
+.nav ul,
+.nav li {
+    display: inline;
+}
+.nav ul {
+    float: right;
+    margin: 0;
+}
+ul {
+    padding: 0;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.nav {
+    padding: 0 10%;
+    float: right;
+    background-color: rgb(182, 182, 182);
+    border: 1px solid red;
+}
+
+body {
+    margin: 0;
+}
+
+.sidenav {
+    width: 20%;
+    float: left;
+    border: 2px solid blue;
+}
+.content {
+    width: 50%;
+    float: right;
+}
+.sidenav a{
+    display: block;
+    width: 100%;
+    text-align: center;
+}

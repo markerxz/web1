@@ -1,0 +1,37 @@
+.ani1 {
+    height: 200px;
+    width: 200px;
+    background-color: orange;
+    border-radius: 100px;
+    transition: background-color 2s ease, transform 2s ease;
+}
+
+.ani1 h1 {
+    text-align: center;
+    display: block;
+    height: 100%;
+    line-height: 200px;
+    user-select: none;
+}
+
+.ani1:hover {
+    background-color: aqua;
+    transform: translateX(200px);
+}
+
+.ani2 {
+    width: 16px;
+    transition: width 2s ease;
+    overflow: hidden;
+}
+
+.ani2:hover {
+    width: 100px;
+}
+
+.triangle {
+    height: 0;
+    width: 0;
+    border-top: 50px solid rgba(0, 0, 255, 0.5);
+    border-right: 50px solid transparent;
+}

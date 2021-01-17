@@ -1,0 +1,23 @@
+thead tr td {
+    border: 1px solid black;
+}
+table {
+    border-collapse: collapse;
+    border: 20px double blue;
+}
+table:hover {
+    border: 20px double gold;
+}
+a{
+    color: red;
+    text-decoration: none;
+}
+a:visited{
+    color: cyan;
+}
+a:hover{
+    color: orange;
+}
+a:active{
+    color:palevioletred;
+}

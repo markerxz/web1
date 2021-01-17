@@ -1,0 +1,82 @@
+body , head{
+    margin: 0;
+    padding: 0;
+}
+.imgz{
+    position: fixed;
+    top: 0;
+    z-index: -1;
+}
+.square , .text,.triangle,.shadowtri{
+    transition: background-color 2s ease, transform 2s ease,font-size 4s,border-top 2s ease,color 2s ease,border-right 2s ease;
+}
+.square{
+    position: fixed;
+    left:0;
+    height: 900px;
+    width: 300px;
+    background-color: #d400ff5e;
+    z-index:1;
+}
+.triangle {
+    position: fixed;
+    top: 0;
+    left: 300px;
+    height: 0;
+    width: 0;
+    border-top: 900px solid #d400ff5e;
+    border-right: 300px solid transparent;
+    z-index: 1;
+}
+.shadowtri{
+    position: fixed;
+    left: 300px;
+    height: 0;
+    width: 0;
+    border-top: 1050px solid #00000034;
+    border-right: 350px solid transparent;
+    z-index: 0;
+}
+.shadowtri:hover{
+    border-top: 1600px solid #00000034;
+    border-right: 600px solid transparent;
+}
+.shadowsq{
+    position: fixed;
+    left:0;
+    height: 900px;
+    width: 300px;
+    background-color:#00000034;
+    z-index:0;
+}
+.text{
+    
+    text-align: center;
+    position: fixed;
+    top:45%;
+    left:7%;
+    
+    font-size: 36px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(255, 255, 255);
+    z-index: 2;
+}
+
+.text:hover{
+    
+    font-size: 60px;
+    transform: translateY(-20px);
+    color: purple;
+    
+}
+
+.triangle:hover{
+    border-top: 1500px solid #fdfdfd9c;
+    border-right: 500px solid transparent;
+}
+.square:hover{
+    background-color: #fdfdfd9c;
+}
+a:link{
+    text-decoration: none;
+}

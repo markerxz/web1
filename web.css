@@ -1,0 +1,65 @@
+.head1{
+    font-size: 40px;
+    justify-content: center;
+    text-align: center;
+    font-weight: bold;
+}
+.head2{
+    font-size: 32px;
+    
+    
+}
+.text{
+    font-size: 30px;
+}
+
+.flexi{
+    display: flex;
+    height: 500px;
+    width: 100%;
+    position: absolute;
+    top:25%;
+    flex-direction: row;
+
+}
+.box1.text2{
+    display: block;
+    width: 100%;
+    font-size: 32px;
+    
+   
+  
+}
+.box1{
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+    height: 100%;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 0;
+    margin: 0;
+}
+.b{
+    margin-top: 15%;
+    margin-bottom: 15%;
+    height: 10%;
+    width: 40%;
+    font-size: 25px;
+}
+.box2{
+    display: flex;
+    flex-direction: column;
+    left : 25%;
+    width: 25%;
+    height: 100%;
+    align-items: center;
+    justify-content: flex-start;
+}
+.text2{
+    font-size: 32px;
+    font-weight: bold;
+}
+.text3{
+    font-size: 30px;
+}
